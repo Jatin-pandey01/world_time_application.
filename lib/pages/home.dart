@@ -62,13 +62,13 @@ class _HomeState extends State<Home> {
                     ),
                     ),
                   ),
-                  SizedBox(height: 20.0),
+                  const SizedBox(height: 20.0),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       Text(
                         data['location'],
-                        style: TextStyle(
+                        style: const TextStyle(
                           color: Colors.white,
                           fontSize: 28.0,
                           letterSpacing: 2.0,
@@ -76,10 +76,10 @@ class _HomeState extends State<Home> {
                       ),
                     ],
                   ),
-                  SizedBox(height: 20.0),
+                  const SizedBox(height: 20.0),
                   Text(
                     data['time'],
-                    style: TextStyle(
+                    style: const TextStyle(
                       fontSize: 66.0,
                       color: Colors.white,
                     ),

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:world_time/pages/choose_location.dart';
 import 'package:world_time/pages/home.dart';
-import 'package:world_time/pages/loading.dart'; //Another way to import to packages 
+import 'package:world_time/pages/loading.dart'; //Another way to import to packages
 
 
 void main() => runApp(MaterialApp(
